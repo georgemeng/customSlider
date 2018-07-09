@@ -1,0 +1,29 @@
+<style>
+    .irs-line-left, .irs-line-mid, .irs-line-right {
+        background: #428bca;
+    }
+    .irs-min, .irs-max {
+        top: 18px;
+        background: none;
+    }
+
+    .irs-single {
+        display: none;
+    }
+
+    .irs-slider {
+        background: rgb(66, 139, 202);
+        top: 2px;
+    }
+
+    .irs-bar-edge, .irs-bar, .irs-line {
+        top: 10px;
+    }
+
+    .customSliderInput {
+        background-color: #428bca;
+        color: white;
+        text-align: center;
+    }
+
+</style>
