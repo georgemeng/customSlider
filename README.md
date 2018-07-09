@@ -19,3 +19,4 @@ For the custom sliderInput test, there are a couple options, I ended up with 4 w
 
 	The working URL is https://georgemeng.shinyapps.io/CustomSlider4/
 
+In all above running applications I created two slider instances in order to test out the solution will be working in real world case.  
