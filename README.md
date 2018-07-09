@@ -2,7 +2,7 @@
 
 For the custom sliderInput test, there are a couple options, I ended up with 4 working solutions.
 
-1) use jQuery + css + numericInput to implement the slider. The downside is that it is not a true component.
+1) use jQuery + css + numericInput to implement the slider. The downside is that it is not a true component. Also it could not enter text, so this solution does not satisfy 1-e, which expects non number input. 
 
 	The working URL is https://georgemeng.shinyapps.io/CustomSlider/
 
