@@ -16,8 +16,14 @@
 
             $(document).on('change', '#' + inputid, function(){
 
+                var maxValue = $('#' + sliderid).data("max");
+                var minValue = $('#' + sliderid).data("min");
+ 
                 var text = $('#' + inputid).val();
                 if ( isNaN(text) ) return;
+
+                if ( text > maxValue ) $('#' + inputid).val(maxValue);
+                if ( text < minValue ) $('#' + inputid).val(minValue);
 
                 slider = $('#' + sliderid).data('ionRangeSlider');
                 slider.update({from: $('#' + inputid).val()});

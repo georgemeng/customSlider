@@ -187,7 +187,7 @@ customSlider <- function(inputId, label, min, max, value, step = NULL,
         tags$style(type='text/css', ".irs-single { display: none; }"),
         tags$style(type='text/css', ".irs-slider { background: rgb(66, 139, 202); top: 2px; }"),
         tags$style(type='text/css', ".irs-bar-edge, .irs-bar, .irs-line { top: 10px; }"),
-        tags$style(type='text/css', ".customSliderInput { background-color: #428bca; color: white; text-align: center; }"),
+        #tags$style(type='text/css', ".customSliderInput { background-color: #428bca; color: white; text-align: center; }"),
         tags$script(src = "customSlider.js")
       )
     )
